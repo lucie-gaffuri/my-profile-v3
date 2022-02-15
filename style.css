@@ -1,0 +1,113 @@
+body{
+	background-color: #F4EEA9;
+	color : black;
+	font-size: 20px;
+	font-family: 'Lora', serif;}
+
+h1,h2{
+    font-family: 'Lora', serif;
+    color:#519259
+}
+h1{
+	letter-spacing: 2;
+	font-size: 40;
+	font-weight: 600;
+}
+h2{
+	font-size: 30;
+	font-weight: 500;
+}
+a{
+	font-family: 'Lora', serif;
+	text-decoration: none;
+	color : white;
+}
+a:hover{
+	font-family: 'Lora', serif;
+	font-weight:bolder;
+}
+
+p{
+	text-justify :justify;
+}
+
+/* custom design with classes */
+
+.container{
+	width: 800px;
+	margin: 10px auto;
+	background-color: #F4EEA9;
+}
+@media(max-width: 500px){
+	.container{
+		background-color:#0a7559 ;
+		width : 400px
+	}
+}
+
+}
+@media(max-width: 760px){
+	.container{
+		background-color:#0a7559 ;
+		width : 600px
+	}
+}
+
+.card-white{
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	padding: 40px;
+	margin: 40px 0px;
+	background: white;
+	text-align: center;
+	border: 10px;
+}
+
+.img-circle{
+	border-radius : 50%;
+	max-width: 200px;
+}
+
+.img-carre{
+	border-radius: 4px;
+	max-width: 200px;
+	max-height: 100px;
+}
+
+.btn-green{
+	background-color: #064635;
+	padding : 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover{
+	background-color: #519259
+}
+
+.list-inline{
+	list-style: none;
+	padding-left : 0px;
+}
+
+.list-inline li{
+	display : inline;
+	padding : 10px 
+}
+
+.list-vertical{
+	list-style :none;
+}
+
+#introduction p{
+	margin-bottom : 40px;
+}
+
+#courses li{
+	color: #0a7559;
+}
+
+#my-exchange p{
+	font-size: 25;
+	color: #0a7559;
+}
+
